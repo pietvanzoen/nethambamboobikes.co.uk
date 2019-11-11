@@ -10,14 +10,19 @@
   html, body, input {
     font-family: Lato, sans-serif;
     font-size: 18px;
-    color: #3F413F;
     line-height: 1.6;
+    color: #f0f0f0;
   }
   h1 {
     margin: 0;
   }
+  h2 {
+    color: #999063;
+  }
   main, header, footer {
     padding: 0 1em;
+    max-width: 640px;
+    margin: 0 auto;
   }
   .hide-text {
     text-indent: 100%;
@@ -25,23 +30,26 @@
     overflow: hidden;
     display: none;
   }
+  .color-accent {
+    color: #999063;
+  }
   img {
     height: auto;
   }
   body {
     margin: 2em auto;
-    max-width: 640px;
+    background-color: #0D0D0F;
     text-align: center;
   }
   footer {
-    margin: 4em 0;
+    margin: 4em auto;
     text-align: center;
   }
   a {
-    color: #75967B;
+    color: #999063;
   }
   .card {
-    background: #F1F1F1;
+    background: #222;
     margin: 0 -1em;
     padding: 2em;
 
@@ -52,7 +60,7 @@
   input[type="submit"] {
     color: #fff;
     border: none;
-    background-color: #75967B;
+    background-color: #999063;
     padding: 0.3em 0.5em;
   }
   input[type="email"] {
@@ -71,7 +79,7 @@
 </head>
 <body>
   <header>
-    <h1><img style="max-width: 420px; width: 100%;" src="./netham-header-logo.png" alt="Netham Bamboo Bikes" /><span class="hide-text">Netham Bamboo Bikes</span></h1>
+    <h1><img style="max-width: 420px; width: 100%;" src="./logo-olive.png" alt="Netham Bamboo Bikes" /><span class="hide-text">Netham Bamboo Bikes</span></h1>
   </header>
 <video controls>
   <source src="./netham-bamboo-teaser.mp4" type="video/mp4">
@@ -85,7 +93,7 @@
     <br>
 
     <div class="card">
-    <img style="max-width: 50px" src="./netham-bike.png" alt="Netham Bamboo" /><br>
+    <img style="max-width: 50px" src="./logo-bike-olive.png" alt="Netham Bamboo" /><br>
     <h2>Find out more</h2>
     <p>Find us on <a href="https://www.facebook.com/NethamBamboo/"><strong>Facebook</strong></a> or signup for our newsletter to get the latest about our bamboo bikes and how we'll be supporting important work in developing parts of the world.</p>
 
@@ -105,7 +113,7 @@
     <img style="max-width: 40px" src="./netham-footer-logo.png" alt="Netham Bamboo" /><br>
     <small>
       &copy; 2019 Netham Bamboo Bikes<br>
-      Made with ❤ in Bristol, UK<br>
+      Made with <span class="color-accent">❤</span> in Bristol, UK<br>
       <a href="mailto:info@nethambamboobikes.co.uk">info@nethambamboobikes.co.uk</a>
     </small>
   </footer>
