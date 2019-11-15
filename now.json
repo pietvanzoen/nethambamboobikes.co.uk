@@ -2,6 +2,7 @@
   "version": 2,
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/home", "status": 301, "headers": { "Location": "/" } },
     { "src": "/(.*)", "status": 302, "headers": { "Location": "/" } }
   ]
 }
