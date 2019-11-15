@@ -1,0 +1,5 @@
+{
+  "scripts": {
+     "build": "sed \"s/%BUILD_DATE%/$(date +%Y-%m-%d)/g\" sitemap.xml.template > sitemap.xml"
+  }
+}
